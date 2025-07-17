@@ -4,6 +4,26 @@
     <meta charset="UTF-8">
     <title>Sobre Nosotros - Paws Coffee</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .equipo {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-top: 2rem;
+        }
+
+        .equipo img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 2px solid #ccc;
+        }
+
+        .info-miembro {
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -25,21 +45,27 @@
             <h1>Sobre Nosotros</h1>
             <p>Conoce al equipo de desarrollo detrás del proyecto semestral:</p>
 
-            <div style="margin-top: 2rem;">
-                <h3>Nathaly Bonilla</h3>
-                <p><strong>Cédula:</strong> 8-XXXX-XXXX</p>
-                <p><strong>Carrera:</strong> Ingeniería en Software</p>
-                <p><strong>Experiencia:</strong> Apasionada por la programación web y el análisis de datos. Ha trabajado con HTML, CSS, SQL, y herramientas de visualización como Power BI.</p>
+            <div class="equipo">
+                <img src="nathaly.jpg" alt="Nathaly Bonilla">
+                <div class="info-miembro">
+                    <h3>Nathaly Bonilla</h3>
+                    <p><strong>Cédula:</strong> 8-XXXX-XXXX</p>
+                    <p><strong>Carrera:</strong> Ingeniería en Software</p>
+                    <p><strong>Experiencia:</strong> Apasionada por la programación web y el análisis de datos. Ha trabajado con HTML, CSS, SQL, y herramientas de visualización como Power BI.</p>
+                </div>
             </div>
 
-            <div style="margin-top: 2rem;">
-                <h3>[Nombre del compañero 2]</h3>
-                <p><strong>Cédula:</strong> [8-XXXX-XXXX]</p>
-                <p><strong>Carrera:</strong> [Ejemplo: Ing. en Sistemas]</p>
-                <p><strong>Experiencia:</strong> [Ejemplo: Manejo de bases de datos y backend en Java]</p>
+            <div class="equipo">
+                <img src="compañero2.jpg" alt="Nombre del compañero 2">
+                <div class="info-miembro">
+                    <h3>[Nombre del compañero 2]</h3>
+                    <p><strong>Cédula:</strong> [8-XXXX-XXXX]</p>
+                    <p><strong>Carrera:</strong> [Ejemplo: Ing. en Sistemas]</p>
+                    <p><strong>Experiencia:</strong> [Ejemplo: Manejo de bases de datos y backend en Java]</p>
+                </div>
             </div>
 
-            <!-- Repite este bloque para cada integrante -->
+            <!-- Repite este bloque por cada integrante -->
         </section>
     </main>
 
