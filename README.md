@@ -41,7 +41,7 @@ Este es el repositorio del proyecto final del curso **Programación de Software 
 - Servidor Apache Tomcat
 - Oracle Database (para consultas y registros)
 
-## Proyecto final - II semestre 2025
+## Proyecto final - I semestre 2025
 Universidad Tecnológica de Panamá  
 Facultad de Ingeniería de Sistemas Computacionales  
 Licenciatura en Ingeniería de Software
